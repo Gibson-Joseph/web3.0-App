@@ -3,7 +3,6 @@ import tether from "../tether.png";
 import Airdrop from "./Airdrop";
 export class Main extends Component {
   render() {
-    console.log(this.props);
     return (
       <div id="content" className="mt-3">
         <table className="table text-muted text-center">
@@ -32,7 +31,6 @@ export class Main extends Component {
               // event.preventDefault();
               let amount;
               amount = this.input.value.toString();
-              console.log("amount", amount);
               amount = window.web3.utils.toWei(amount, "Ether");
               this.props.stakeTokens(amount);
             }}
