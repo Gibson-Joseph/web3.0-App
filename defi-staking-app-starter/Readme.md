@@ -77,3 +77,7 @@ module.exports = {
 # truffle_abis (folder)
 
 In Root foilder create truffle_abis folder. This folder in src folder
+
+# requirment
+node version 10
+
